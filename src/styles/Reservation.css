@@ -1,0 +1,41 @@
+.reservation{
+  background:#0d0d0d;
+  padding:100px 10%;
+  text-align:center;
+}
+
+.reservation h2{
+  color:#D4AF37;
+  font-size:50px;
+  margin-bottom:50px;
+}
+
+.reservation-form{
+  max-width:700px;
+  margin:auto;
+
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.reservation-form input{
+  padding:18px;
+  border:none;
+  border-radius:10px;
+  font-size:16px;
+}
+
+.reservation-form button{
+  padding:18px;
+
+  background:#D4AF37;
+  border:none;
+
+  border-radius:10px;
+
+  cursor:pointer;
+
+  font-size:18px;
+  font-weight:bold;
+}

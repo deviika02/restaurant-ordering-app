@@ -1,0 +1,42 @@
+.contact{
+  background:#111;
+  color:white;
+  padding:100px 10%;
+}
+
+.contact h2{
+  text-align:center;
+  color:#D4AF37;
+  font-size:50px;
+  margin-bottom:60px;
+}
+
+.contact-container{
+  display:flex;
+  gap:40px;
+  flex-wrap:wrap;
+}
+
+.contact-info{
+  flex:1;
+  min-width:300px;
+}
+
+.contact-info h3{
+  color:#D4AF37;
+  margin-bottom:20px;
+}
+
+.contact-info p{
+  margin-bottom:15px;
+  font-size:18px;
+}
+
+.contact-map{
+  flex:1;
+  min-width:300px;
+}
+
+.contact-map iframe{
+  border-radius:20px;
+}

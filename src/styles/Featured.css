@@ -1,0 +1,37 @@
+.featured{
+  background:#0d0d0d;
+  color:white;
+  padding:100px 10%;
+}
+
+.featured h2{
+  text-align:center;
+  color:#D4AF37;
+  font-size:50px;
+  margin-bottom:60px;
+}
+
+.featured-container{
+  display:flex;
+  gap:30px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.featured-card{
+  width:320px;
+  background:#1a1a1a;
+  padding:30px;
+  border-radius:20px;
+  text-align:center;
+  transition:0.3s;
+}
+
+.featured-card:hover{
+  transform:translateY(-10px);
+}
+
+.featured-card h3{
+  color:#D4AF37;
+  margin-bottom:15px;
+}

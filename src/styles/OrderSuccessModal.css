@@ -1,0 +1,45 @@
+.success-overlay{
+  position:fixed;
+  inset:0;
+
+  background:rgba(0,0,0,0.8);
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  z-index:9999;
+}
+
+.success-modal{
+  background:#1a1a1a;
+  color:white;
+
+  padding:40px;
+
+  border-radius:20px;
+
+  text-align:center;
+
+  width:500px;
+  max-width:90%;
+}
+
+.success-modal h2{
+  color:#D4AF37;
+}
+
+.success-modal button{
+  margin-top:20px;
+
+  background:#D4AF37;
+  color:black;
+
+  border:none;
+
+  padding:12px 25px;
+
+  border-radius:10px;
+
+  cursor:pointer;
+}
